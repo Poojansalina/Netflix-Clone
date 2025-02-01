@@ -3,6 +3,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding: 10px;
+    font-family: "NetflixFont", sans-serif;
     
 }
 
@@ -33,8 +34,16 @@ button.top-right-btn {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    font-family: "NetflixFont", sans-serif;
   }
   
   button.top-right-btn:hover {
     background-color: #0056b3;
   }
+
+@font-face {
+    font-family: "NetflixFont";
+    src: url("fonts/NetflixSans_W_Rg.woff2") format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
